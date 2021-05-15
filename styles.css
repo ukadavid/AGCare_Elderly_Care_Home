@@ -1,0 +1,437 @@
+body {
+  font-family: 'Montserrat-Black';
+}
+
+.logo {
+  width: 60px;
+  height: 50px;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+h1 {
+  font-family: 'Montserrat-Black';
+  font-size: 4rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+h2{
+  font-family: 'Montserrat-Bold';
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+h3{
+font-family: 'Montserrat-Black';
+font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.8rem;
+}
+
+h5{
+  font-size: 1rem;
+}
+
+p{
+color: #8f8f8f;
+font-size: 1.2rem;
+}
+
+#title {
+  background-color: #fff;
+  color: #fff;
+  padding: 10px;
+}
+
+#title .title-nav {
+  margin-left: 10%;
+}
+
+#title-2 {
+  background-color: #1F7A8C;
+  text-align: center;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+
+/* Navigation Bar */
+
+.container {
+  padding-left: 0;
+}
+
+#navbarNav {
+  text-align: center;
+  align-items: center;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: black;
+}
+
+.nav-main {
+  background-color: #fff;
+}
+
+.navbar-brand {
+  font-family: Ubuntu;
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+ button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+ button a:hover {
+  text-decoration: none;
+}
+
+
+.nav-link {
+  font-size: 1.7rem;
+  font-family: Montserrat-Light;
+  color: #fff;
+}
+
+.title-2-nav:hover{
+  color: #F1BF0F;
+  border-bottom: 2px solid #F1BF0F;
+}
+
+.title-2-nav:active {
+ color: #F1BF0F;
+  border-bottom: 2px solid #F1BF0F;
+}
+
+/* download buttons */
+.download-button {
+  margin: 5% 3% 15% 0;
+}
+
+/* carousel section */
+.home-page {
+  text-align: left;
+}
+
+.home-page h1{
+  font-size: 50px;
+}
+
+/* feature section */
+
+
+.col-sm-4 {
+  max-width: 30%;
+}
+
+#features {
+  text-align: center;
+  background-color: #EFF6F9;
+  position: relative;
+  z-index: 1;
+  padding: 5% 5%;
+  color: #1F7A8C;
+}
+
+.features-size {
+  height: 200px;
+}
+
+.feature-box {
+    position: relative;
+    bottom: 100px;
+    margin-left: 20px;
+}
+
+.feature-box,
+.service-box, .service-type-1, .service-type-2 {
+    text-align: center;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    padding: 1% 3%;
+    background-color: #fff;
+    border-radius: 10%;
+    color: #1F7A8C;
+}
+
+/* Services */
+
+.service-box ul li, .head-be{
+  text-align: left;
+}
+
+.head-be {
+  margin-left: 20px;
+}
+
+#Services h2, #service-packages h2 {
+  color: #1F7A8C;
+  display: inline-block;
+  position: relative;
+}
+
+#Services h2::after, #service-packages h2::after, .testimonial-line::after {
+    content: '';
+    height: 2px;
+    width: 30%;
+    position: absolute;
+    left: 30%;
+    right: 0;
+    background-color:#F1BF0F;
+    bottom: 2px;
+}
+
+
+#Services h2 span, #service-packages span {
+  color: #053C5E;
+}
+
+#Services ul {
+   text-align: left;
+  list-style-type: none;
+}
+
+#Services ul li {
+    background: url(./Img/bullet.png) no-repeat top left;
+    background-position: 0 5px;
+    line-height: 1.8;
+    padding: 3px 0 1px 30px;
+    margin-left: 1em;
+    font-size: 1.2rem;
+}
+
+.short-service h4, .service-box {
+  color: #1F7A8C;
+}
+
+/* Testimonial sections */
+
+#testimonials {
+  padding: 5% 15%;
+  text-align: center;
+  background-color: #EFF6F9;
+  color: #1F7A8C;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+
+.testimonial-line {
+  position: relative;
+  display: inline-block;
+}
+
+
+.testimonial-carousel {
+  padding-bottom: 3%;
+}
+
+
+/* Service Packages */
+
+ #service-packages {
+  text-align: center;
+  padding: 3% 5%;
+}
+
+.service-box {
+  margin-left: 20px;
+  justify-content: center;
+  max-width: 30%;
+  align-items: center;
+}
+
+.service-type-1, .service-type-2  {
+   max-width: 30%;
+     margin: 20px 0 20px 10px;
+    text-align: left;
+}
+
+.service-type-1 {
+    margin-left: 180px;
+}
+
+.long-service h4, .short-service h4 {
+  margin: 15px 0 20px;
+  color: #1F7A8C;
+}
+
+#service-packages p {
+  text-align: left;
+  margin-top: 20px;
+  width: 62%;
+  font-size: 0.9rem;
+}
+
+/* AGCare Quote Section*/
+
+.quote{
+ background-image: url("./Img/female-hispanic-doctor-meeting-two-260nw-1634737504.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+ opacity: 0.9;
+}
+
+.quote-section{
+  text-align: center;
+  padding: 7% 15%;
+  background-color: rgba(236, 253, 253, 0.637);
+}
+
+.mb-0 {
+  
+  color: black;
+}
+
+.blockquote-footer {
+  color: black;
+  font-weight: bold;
+  font-size: 1.4rem;
+  margin-top: 20px;
+}
+
+/* Footer */
+
+.footer-main {
+  padding: 5% 0;
+}
+
+footer {
+  background-color: #277eb4;
+  color: #fff;
+}
+
+.footer-contact li {
+width: 200%;
+margin-top: 10px;
+}
+
+.footer-contact li a {
+  color: #fff;
+}
+
+.col-sm-4.footer-contact li, .col-sm-4.footer-contact a {
+    font-size: 1.5rem;
+}
+
+.footer-contact li a:hover{
+  text-decoration: none;
+  color: rgb(238, 224, 224);
+}
+
+.footer-contact li img {
+  margin-right: 10px;
+}
+
+.footer-logo {
+  margin: 20px 0 0 10px;
+}
+
+.footer-p {
+  text-align: center;
+  background-color: #134564;
+  padding: 15px 0 3px 0;
+}
+
+.footer-contact-1, .footer-contact-2 {
+  padding-left: 0;
+}
+
+.footer-p p {
+  color: #fff;
+  font-size: 1rem;
+}
+
+
+/* About Page First Page */
+.about-us-1 {
+  color: #F1BF0F;
+}
+
+.about-nav {
+  color: #F1BF0F;
+  border-bottom: 2px solid #F1BF0F;
+}
+
+.about-nav:hover {
+  color: #F1BF0F;
+  border-bottom: 2px solid #F1BF0F;
+}
+
+#about-us {
+ background-image: url("./Img/background-about2.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+ opacity: 0.9;
+ color: #fff;
+}
+
+
+/* About Page Section */
+.about-first-page p {
+  color: #fff;
+  font-size: 20px;
+}
+
+.about-page-section {
+  text-align: center;
+  padding-top: 3%;
+}
+
+.about-h {
+  color: #F1BF0F;
+  margin-top: 10px;
+}
+
+.about-us-ag p {
+ font-size: 1.8rem;
+ padding: 0 2% 3%;
+ line-height: 1.5;
+}
+
+
+/* Vision and mission Statement */
+.mision-vision {
+  padding: 5% 10%;
+}
+
+ .line-mission-vision h3, .line-vision h3 {
+   color: #F1BF0F;
+ }
+
+ .line-mission-vision p, .line-vision p {
+    font-size: 1.8rem;
+ }
+
+/* Media Query */
+
+@media (max-width: 1028px) {
+
+#title {
+  text-align: center;
+}
+}
