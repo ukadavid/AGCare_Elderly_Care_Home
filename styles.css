@@ -227,11 +227,15 @@ font-size: 1.2rem;
 
 /* Testimonial sections */
 
-#testimonials {
-  padding: 5% 15%;
+#testimonials, #gallery {
+  
   text-align: center;
-  background-color: #EFF6F9;
   color: #1F7A8C;
+}
+
+#testimonials {
+   background-color: #EFF6F9;
+   padding: 5% 15%;
 }
 
 .testimonial-image {
@@ -411,6 +415,17 @@ margin-top: 10px;
  font-size: 1.8rem;
  padding: 0 2% 3%;
  line-height: 1.5;
+}
+
+/* Gallery */
+
+#gallery {
+  background-color: #fff;
+  padding: 2% 15%;
+}
+
+.photo-image {
+  width: 60%;
 }
 
 
