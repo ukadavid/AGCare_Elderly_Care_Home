@@ -185,13 +185,13 @@ font-size: 1.2rem;
   margin-left: 20px;
 }
 
-#Services h2, #service-packages h2 {
+#Services h2, #service-packages h2, .gallery-h2 {
   color: #1F7A8C;
   display: inline-block;
   position: relative;
 }
 
-#Services h2::after, #service-packages h2::after, .testimonial-line::after {
+#Services h2::after, #service-packages h2::after, .testimonial-line::after, .gallery-h2::after {
     content: '';
     height: 2px;
     width: 30%;
@@ -421,17 +421,15 @@ margin-top: 10px;
 
 #gallery {
   background-color: #fff;
-  padding: 2% 15%;
+  padding: 2% 5%;
 }
 
-.photo-image {
-  width: 60%;
+.gallery-h2 {
+  margin: 20px 0;
 }
 
-
-/* Vision and mission Statement */
-.mision-vision {
-  padding: 5% 10%;
+.gallery-slide {
+  margin: 20px 0 40px;
 }
 
  .line-mission-vision h3, .line-vision h3 {
